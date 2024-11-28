@@ -7,7 +7,7 @@ Model:
 i used XGBoost (Extreme Gradient Boosting) for this classification task, which performed well with an initial accuracy of 91%. However, the F1 score was suboptimal, particularly due to a high false positive rate.
 
 Improvement:
-To address the false positives, hyperparameter tuning was applied using Grid Search and Random Search to find the optimal model settings. This tuning helped reduce false positives while balancing the precision and recall.
+To address the false positives, hyperparameter tuning was applied using Random Search to find the optimal model settings. This tuning helped reduce false positives while balancing the precision and recall.
 
 Results:
 After tuning, the model’s accuracy decreased to 89%, but the F1 score improved significantly, with a notable reduction in false positives. This made the model more reliable for practical use, where minimizing false positives is crucial in healthcare settings.
