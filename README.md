@@ -1,2 +1,2 @@
-# Stroke-Predication
+# Stroke-Prediction
 Stroke Prediction
