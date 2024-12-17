@@ -1,7 +1,7 @@
 # Stroke-Prediction
 Stroke Prediction Model
 Objective:
-The goal of this project is to develop a machine learning model to predict the likelihood of a stroke based on clinical features. The dataset used was sourced from Kaggle.
+The goal of this project is to develop a machine learning model to predict the likelihood of a stroke based on clinical features. 
 
 Model:
 i used XGBoost (Extreme Gradient Boosting) for this classification task, which performed well with an initial accuracy of 91%. However, the F1 score was suboptimal, particularly due to a high false positive rate.
